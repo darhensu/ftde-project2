@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    database: data_warehouse
+    schema: public
+    tables:
+      - name: actor
+      - name: address
+      - name: customer
+      - name: film_actor
+      - name: film
+      - name: inventory
+      - name: payment
+      - name: rental
+      - name: staff
+
+
